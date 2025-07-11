@@ -1,3 +1,8 @@
+buildscript {
+    dependencies {
+        classpath(libs.kotlin.gradle.plugin)
+    }
+}
 allprojects {
     repositories {
         google()
